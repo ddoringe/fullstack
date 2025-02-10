@@ -1,0 +1,32 @@
+2025-02-10
+
+\\192.168.0.10  (x)
+
+! + tab
+vscode extensions -> open in browser 다운
+alt+ shift + ↓ ->한줄 복사됨
+ctrl + / ->주석
+extensions -> auto rename tag 다운 
+
+
+strong 진하게 em 기울임
+ins태그는 밑줄 del태그는 취소선
+sup 윗첨자 sub 아랫첨자
+
+ol  순번있는 리스트
+ul 순번없는 리스트
+
+
+
+
+집에가서 깃허브에 올린내용을 최초로 받으려면?
+1.git 설치 https://git-scm.com/downloads
+
+2.git bash에 아래 내용 입력
+git config --global user.name "ddoringe"
+git config --global user.email "ds23183@gmail.com"
+
+3.깃허브에 클론
+git clone https://github.com/ddoringe/test.git
+
+4.file - open folder 해서 test폴더를 다시한번 열기

@@ -1,0 +1,65 @@
+    h1{background-color: yellowgreen !important;}
+
+=>색이 자꾸 다른거 들어갈때 !important 쓰면 무조건먹음
+
+
+git - vcs(version control system)의 일종으로 프로그램의 버전관리를 위한 툴
+github - git으로 관리하는 프로젝트들을 온라인 공간에 공유해서 프로젝트 구성원들이 함께 소프트 웨어를 만들어 갈 수 있도록 코드 공유 및 협업 서비스
+
+
+
+<깃 다운로드>
+https://git-scm.com/downloads
+
+ctrl + ~  터미널열기
+기본터미널을 git  bash로 변경
+터미널에 git 입력해보기
+
+seonghuii 말고 ddoringe로 새로 만들었음
+
+new 또는 create repository 누르기
+
+=======================================
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ddoringe/test.git
+git push -u origin main
+
+=========================================
+
+
+https://meaningood.tistory.com/entry/VSCode%EC%84%A4%EC%B9%98%EB%B6%80%ED%84%B0-html%EC%9D%84-%EA%B9%83%ED%97%88%EB%B8%8CGitHub%EC%97%90-%EC%97%B0%EB%8F%99%ED%95%98%EA%B3%A0-%EC%98%AC%EB%A6%AC%EA%B8%B0
+
+
+// default branch 이름 main으로 변경
+$ git branch -m master main
+
+처음할때 
+
+git config --global user.name "ddoringe"
+git config --glabal user.email "ds23183@gmail.com"
+-----------------------------------------------------------
+git init
+git add a.html
+git commit -m "V1"
+git remote add origin https://github.com/ddoringe/test.git
+git push -u origin main
+
+--------------------------------------------------------------------
+두번째 부터는
+
+git add .  -> 모두 add
+git commit -m "V2"
+git push
+
+----------------
+git clone https://github.com/ddoringe/test.git     >>깃에 있는것 복사
+복사이후에 오픈폴더해서 다시 설정만 해주면 됨
+
+git pull
+-----------------------
+git init
+git remote add origin
