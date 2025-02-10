@@ -30,3 +30,8 @@ git config --global user.email "ds23183@gmail.com"
 git clone https://github.com/ddoringe/test.git
 
 4.file - open folder 해서 test폴더를 다시한번 열기
+
+
+
+
+file - preferences - settings ->exclude검색후 git x 표시하면 vscode에서 .git 폴더가 보임

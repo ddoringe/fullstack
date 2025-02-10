@@ -1,0 +1,13 @@
+<strong>굵게
+<em>기울임
+<b>굵게
+<i> 기울임
+<mark>표시
+<ins>밑줄
+<del>취소선
+<sup>제곱
+<sub>아랫첨자
+<small>작게
+
+<ul> 순서 x  type="square" ,"none"
+<ol> 순서o type="A","a","I"         start="3" type="a"
