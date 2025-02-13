@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{margin: 0; padding: 0;}
+.container{
+    width: 1000px;
+    height: 800px;
+}
+header{
+    background-color: pink;
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+.logo{
+    background-color: pink;
+    width: 200px;
+    height:130px;
+    line-height: 130px;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+nav{
+    background-color: hotpink;
+    width: 174px;
+    height:250px;
+    margin: 10px 10px;
+    border: 3px solid #ccc;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+}
+
+nav ul li ul{
+    
+}
+
+section{
+    background-color: green;
+    width: 800px;
+    height: 700px;
+    float: left;
+}
+
+.img_slider{
+    background-color: yellow;
+    width: 800px;
+    height: 400px;
+}
+
+.content{
+    background-color: skyblue;
+    width: 800px;
+    height: 400px;
+}
+
+.notice{
+    background-color: greenyellow;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+
+}
+.banner{
+    background-color: gold;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+.icons{
+    background-color: grey;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+}
+
+footer{
+    background-color: black;
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+.foot_l{
+    background-color: gray;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.foot_r{
+    background-color: darkolivegreen;
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+.f_up{
+    background-color: darkslategrey;
+    width: 600px;
+    height: 50px;
+}
+.f_dw{
+    background-color: darkslateblue;
+    width: 600px;
+    height: 50px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 class="logo">LOGO</h1>
+        <nav>
+            <ul>
+                <li><a href="#">MENU-1</a>
+                    <ul>
+                        <li><a href="#">Submenu1</a></li>
+                        <li><a href="#">Submenu2</a></li>
+                        <li><a href="#">Submenu3</a></li>
+                        <li><a href="#">Submenu4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">MENU-2</a></li>
+                <li><a href="#">MENU-3</a></li>
+                <li><a href="#">MENU-4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="img_slider">
+            <img src="images/slide1.jpg" alt="슬라이더1" width="800px" height="400px">
+        </div>
+        <div class="content">
+            <article class="notice"></article>
+            <article class="banner"></article>
+            <article class="icons"></article>
+        </div>
+    </section>
+    <footer>
+        <div class="foot_l"></div>
+        <div class="foot_r">
+            <div class="f_up"></div>
+            <div class="f_dw"></div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
