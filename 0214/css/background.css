@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;}
+.back{
+    width: 100%;
+    /* 보이는 높이 꽉채우기 */
+    height: 100vh;
+}
+.back1{
+    background-color: aqua;
+    background-image: url(../images/b1.jpg);
+    /* background-image: url(../images/dog1.jpg); */
+    /* background-image: url(../images/dog1.jpg);
+    background-repeat: no-repeat; 
+    배경이미지는 기본으로 반복 
+    no-repeat (반복안함)
+    repeat-x x축으로만 반복
+    repeat-y y축으로만 반복
+    */
+
+    /* 화면에 꽉차게 
+    background-size: cover;
+    */
+}
+.back2{
+    background-color: rgb(11, 69, 71);
+    background-image: url(../images/b2.jpg);
+}
+.back3{
+    background-color: rgb(1, 10, 10);
+    background-image: url(../images/b3.jpg);
+    background-attachment: fixed;
+}
+.back4{
+    background-color: rgb(138, 90, 194);
+    background-image: url(../images/b4.jpg);
+}
+.back5{
+    background-color: rgb(49, 14, 88);
+    background-image: url(../images/b5.jpg);
+}
+.back6{
+    background-image: url(../images/dog1.jpg);
+    background-repeat: no-repeat;
+    /* 배경위치 background-position:가로위치 세로위치*/
+    background-position: 50% 50%;
+    background-color: brown;
+}
+.back7{
+    background: pink url(../images/dog1.jpg) no-repeat 50% 50%;
+}
